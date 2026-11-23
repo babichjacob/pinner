@@ -1,0 +1,12 @@
+[workspace]
+resolver = "3"
+
+members = [
+    "cloudflare-worker",
+    "discord-bot",
+    "http-server",
+    "run-locally"
+]
+
+[workspace.package]
+license = "Unlicense"
